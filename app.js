@@ -8,10 +8,23 @@
 // alert(welcomemessage)
 
 
-var btntranslate = document.querySelector("#btn-translate")
 //console.log(btntranslate);
+var btntranslate = document.querySelector("#btn-translate");
+var txtInput = document.querySelector("#txtInput");
+var outputDiv = document.querySelector("#output")
+
+
+
+console.log(txtInput);
+var severurl = 
+function gettranslationurl(text){
+    return
+}
+
+
 function clickHandler() {
-    console.log("clicked");
+    
 }
 btntranslate.addEventListener("click", clickHandler) 
+
     
